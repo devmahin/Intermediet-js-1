@@ -26,3 +26,29 @@
 
 // }
 // console.log(obj)
+
+
+// default parameter
+// function defaultParameter(num1, num2=0){
+
+//     console.log(num1 + num2)
+
+// }
+// defaultParameter(10)
+
+
+function name (first = "", last= ""){
+    console.log(first + " " + last);
+}
+// name()
+
+
+function array(arr=[]){
+    console.log(arr)
+}
+array()
+
+function object(obj={}){
+    console.log(obj)
+}
+object()
